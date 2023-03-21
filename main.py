@@ -35,6 +35,7 @@ def get_feed(feed: DobotApi):
             if len(temp) > 0:
                 hasRead += len(temp)
                 data += temp
+                
         hasRead = 0
 
         a = np.frombuffer(data, dtype=MyType)
